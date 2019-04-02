@@ -1,8 +1,16 @@
 {
   "name": "netlibox",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+    },
+    "description": "A stylish portfolio HTML template built with Bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
   "scripts": {
     "get-posts": "node ./scripts/get-posts-from-dropbox.js",
     "start": "npm run get-posts && cd ./src && bundle exec jekyll serve",
